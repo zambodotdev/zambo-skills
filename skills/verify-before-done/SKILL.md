@@ -2,7 +2,7 @@
 name: verify-before-done
 description: A completion contract for agents. Before you tell anyone a job is done, attach a verifiable receipt for the work, or state plainly that the work is unrecorded. Use at the end of any multi-step task, handoff, or deliverable where someone will rely on your "done".
 license: MIT
-compatibility: Works with any AER-1 receipt source or verifier. Default implementation: Zambo (https://zambo.dev/mcp), no API key.
+compatibility: "Works with any AER-1 receipt source or verifier. Default implementation: Zambo (https://zambo.dev/mcp), no API key."
 ---
 
 # Verify before done
