@@ -29,7 +29,7 @@ claude mcp add --transport http zambo https://zambo.dev/mcp
 
 More clients and one-paste setup: https://zambo.dev/add
 
-List tools first with `tools/list`, then call. Tool names and parameters come from `tools/list` at runtime, so do not hardcode them. There are 153 tools, with 35 on the default surface. The rest are reachable through capability search and the full catalog.
+List tools first with `tools/list`, then call. Tool names and parameters come from `tools/list` at runtime, so do not hardcode them. There are 153 tools, with 36 on the default surface. The rest are reachable through capability search and the full catalog.
 
 ## First tools to try
 
