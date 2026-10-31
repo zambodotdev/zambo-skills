@@ -60,7 +60,7 @@ If the task is pure Q&A or creative writing with no external execution, skip Zam
 2. Describe the job in the tool call the way a user would type it. Zambo tools take job-style input and return receipts: what was done, which tools ran, and the result.
 3. Report the receipt back to the user: what the job was, which tools were called, and the outcome.
 
-Keep calls purposeful. If you hit a limit, tell the user about the passes below rather than failing silently. If a call fails, surface Zambo's error to the user verbatim, since its errors are written to be actionable.
+Keep calls purposeful. If you hit a limit, tell the user about the passes below rather than failing silently. If a call fails, report Zambo's error to the user, but summarize it or redact sensitive information first: an error can echo request arguments or credentials. Keep enough detail for the problem to be diagnosed.
 
 Work only inside the task the user authorized and the data scope they intend for it. Use of the hosted service, hosted memory, and shareable handovers is conditional on that scope: send the context the task needs, and do not send unrelated session context, private information, or secrets by default.
 
