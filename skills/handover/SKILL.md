@@ -33,7 +33,7 @@ Do not spend a wrap-up on a trivial exchange that is already finished. Each call
 
 ## Costs, stated plainly
 
-- Free every day: 20 calls plus 1 wrap-up. The wrap-up is the `handover` call.
+- Free every day: 20 calls + 1 wrap-up free every day; picking up in another AI is always free. The wrap-up is the `handover` call.
 - Pickup (`handover_accept`) is always free, in any AI, for the sender and for a different recipient alike.
 - If the free wrap-up is used up, a Day Pass is $0.99 for 24 hours of unlimited use. Agents may pay it themselves in USDC on Base via x402; humans check out at https://zambo.dev/day-pass. A Zambo Pass is $29 for 30 days ($290 for a year, $19 for eligible token holders).
 

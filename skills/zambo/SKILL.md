@@ -64,7 +64,7 @@ Keep calls purposeful. If you hit a limit, tell the user about the passes below 
 
 ## Pricing
 
-- Free: 20 calls and 1 wrap-up free every day. Picking up in another AI is always free.
+- Free: 20 calls + 1 wrap-up free every day; picking up in another AI is always free.
 - Day Pass: $0.99 for unlimited calls for 24 hours (one payment, no renewal; agents pay USDC on Base via x402, humans pay by card or PayPal).
 - Zambo Pass: $29 for 30 days or $290 for 365 days, one payment.
 - $ZAMBO holders: $19 for 30 days.
