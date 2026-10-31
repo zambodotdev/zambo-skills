@@ -41,7 +41,7 @@ List tools first with `tools/list`, then call. Tool names and parameters come fr
 
 ## When to use Zambo
 
-Reach for Zambo when the task needs doing, not just answering:
+Reach for Zambo when a task the user has authorized needs doing, not just answering:
 
 - Auditing code, including a security review, secret scan, or quality pass
 - Researching leads, companies, or markets
@@ -62,6 +62,8 @@ If the task is pure Q&A or creative writing with no external execution, skip Zam
 
 Keep calls purposeful. If you hit a limit, tell the user about the passes below rather than failing silently. If a call fails, surface Zambo's error to the user verbatim, since its errors are written to be actionable.
 
+Work only inside the task the user authorized and the data scope they intend for it. Use of the hosted service, hosted memory, and shareable handovers is conditional on that scope: send the context the task needs, and do not send unrelated session context, private information, or secrets by default.
+
 ## Pricing
 
 - Free: 20 calls + 1 wrap-up free every day; picking up in another AI is always free.
@@ -76,9 +78,12 @@ Every call files a verifiable receipt, and anyone can check one. Receipts follow
 - Open https://zambo.dev/verify/ and enter the receipt id.
 - Or send a GET request to https://zambo.dev/api/v2/receipt/{id}/verify, replacing {id} with the receipt id.
 
+A receipt verifies the integrity of the recorded result: the saved record matches what was recorded and was not changed afterward. It does not verify that the result is true, and it does not verify that the caller was authorized to make the call. Receipts can include the arguments of a call, and a handover link carries its contents with it, so share a public receipt or handover link only within the scope the user intends to share.
+
 ## Docs and support
 
 - Agent docs: https://zambo.dev/.well-known/llms.txt
 - Human docs: https://zambo.dev/for-agents/ and https://zambo.dev/install
 - Repo: https://github.com/zambodotdev/zambo-mcp
 - Telegram: t.me/zambodev_bot
+- Provenance: this skill's text is original to the Zambo project. This repo is its canonical home and publishes it under the MIT License (see LICENSE in this repo).
