@@ -41,8 +41,8 @@ Then read both files back and confirm the entry and the block are present and th
 
 ## Costs, stated plainly
 
-- Free every day: 20 calls + 1 wrap-up free every day; picking up in another AI is always free.
-- A Day Pass is $0.99 for 24 hours of unlimited use. A Zambo Pass is $29 for 30 days ($290 for a year, $19 for eligible token holders).
+- Free every day: Every tool free once a day, plus 3 continue calls. One free wrap-up handover per day, and pickup is always free.
+- A Day Pass is $0.99 for 24 hours of unlimited use. A Zambo Pass is $29 for 30 days ($19 for 30 days for $ZAMBO holders). A Lifetime Pass is $250, one payment. No annual tier.
 - Wiring a project costs nothing and needs no API key or signup.
 
 ## Say it straight
