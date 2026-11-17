@@ -1,6 +1,7 @@
 # Zambo skills
 
 [![verifiable receipts](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fzambo.dev%2Fapi%2Fstats&query=%24.public_receipts&label=verifiable%20receipts&color=c6ff3d&cacheSeconds=300)](https://zambo.dev/numbers/)
+[![Security: A — Skills Directory](https://www.skillsdirectory.com/api/skills/jantoniofc-zambo/badge)](https://www.skillsdirectory.com/skills/jantoniofc-zambo)
 
 Agent skills that teach an AI to work through Zambo and prove it: connect to the Zambo MCP endpoint, run real work, verify receipts before claiming done, and hand work across AIs with the full record attached. Zambo is the verifiable work layer for AI: 153 tools behind one MCP endpoint at https://zambo.dev/mcp (37 on the default surface), cross-AI continuity through HANDOVER, the flagship, and a verifiable AER-1 receipt for every job.
 
