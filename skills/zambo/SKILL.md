@@ -68,8 +68,9 @@ Work only inside the task the user authorized and the data scope they intend for
 
 - Free: Every tool free once a day, plus 3 continue calls. One free wrap-up handover per day, and pickup is always free.
 - Day Pass: $0.99 for unlimited calls for 24 hours (one payment, no renewal; agents pay USDC on Base via x402, humans pay by card or PayPal).
-- Zambo Pass: $29 for 30 days, one payment. Lifetime Pass: $250, one payment. No annual tier.
-- $ZAMBO holders: $19 for 30 days.
+- Zambo Pass: $29 per month.
+- $ZAMBO holders: $19 per month.
+- Lifetime Pass: $250, one payment.
 
 ## Verify a receipt
 
